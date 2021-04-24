@@ -1,0 +1,69 @@
+.Delete_Button {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+  color: #D82200 ;
+  margin-top: 5px;
+  border-color: #D82200;
+
+  font-size: 1.25rem;
+}
+
+.Delete_Button:hover {
+    background: #D82200;
+    border-color: #D82200;
+    color: white;
+}
+
+.Border_Ord {
+  margin-left: -200px;
+  position: absolute;
+  border: 1px solid transparent;
+  border-color: black ;
+  border-radius: 3px;
+
+
+}
+
+.Display_Ord {
+  font-size: 40px;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Display_Ord_Empty {
+  display: inline-block;
+}
+
+.Display_Section {
+  display: block;
+  width: 100%;
+  padding: 30px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Display_Delete {
+  position: relative;
+  top: -8px; /* Сдвигаем текст вверх */
+}
+
+.Display_Body {
+  background-image: linear-gradient(360deg, #eee, #fff 2000px, #fff);
+}

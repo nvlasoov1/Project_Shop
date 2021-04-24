@@ -1,0 +1,231 @@
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+
+body {
+  background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+}
+
+.AhahahahGreen {
+    border-color: #21DA00; /* Цвет границы */
+    border-style: solid; /* Стиль границы */
+    padding: 5px; /* Поля вокруг текста */
+    border-radius: 9px;
+}
+
+.Ahahahah {
+    border-color: #0D73F8; /* Цвет границы */
+    border-style: solid; /* Стиль границы */
+    padding: 5px; /* Поля вокруг текста */
+    border-radius: 9px;
+}
+
+.Ahahahah_Select {
+
+    text-align-last: right;
+    position: relative;
+}
+
+
+
+.fs-10 {
+	font-size: 90px;
+}
+
+.fs-smaller {
+	font-size: 40px;
+}
+
+.fs-medium {
+	font-size: 30px;
+	color:grey;
+}
+
+.selectbox {
+position: relative;
+display: inline-block;
+*display: inline;
+zoom: 1;
+border: 1px solid #CCC;
+background: none repeat scroll 0 0 #FFFFFF;
+min-width: 160px;
+max-width:220px;
+width: auto;
+}
+
+.selectbox select {
+z-index: 10;
+position: relative;
+border: none;
+background: none;
+outline: none;
+opacity: 0;
+height: 27px;
+-webkit-appearance: none;
+filter: alpha(opacity=0);
+width: 100%;
+cursor: pointer;
+}
+
+.selectbox select option {
+padding: 3px;
+text-align:right;
+}
+
+.selecttext {
+z-index: 9;
+position: absolute;
+right: 25px;
+display: inline-block;
+*display: inline;
+zoom: 1;
+padding-top: 4px;
+background: transparent;
+color: #000;
+text-align:right;
+}
+
+.select-arrow {
+position: absolute;
+display: inline-block;
+*display: inline;
+zoom: 1;
+height: 100%;
+width: 24px;
+top: 0;
+right: 0;
+}
+
+.Block {
+  float: left;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 300px;
+}
+
+
+
+
+.Delete_Button {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+  color: #D82200 ;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  border-color: #D82200;
+
+  font-size: 1.25rem;
+}
+
+
+
+.Delete_Button:hover {
+background: #D82200;
+border-color: #D82200;
+color: white;
+}
+
+
+.Back {
+  left: 0px;
+  position: absolute;
+  top:0px;
+  color: grey;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.Border_Ord {
+  margin-left: -150px;
+  position: absolute;
+  border: 1px solid transparent;
+  border-color:  #3B73F8;
+  border-radius: 20px;
+
+
+
+}
+
+.Display_Ord {
+  font-size: 25px;
+  display: inline-block;
+  padding-left: 120px;
+  padding-right: 120px;
+  color:black;
+}
+
+
+.Display_Delete {
+  position: relative;
+  top: -8px; /* Сдвигаем текст вверх */
+}
+
+.Display_Body {
+  background-image: linear-gradient(360deg, #eee, #fff 2000px, #fff);
+
+}
+
+.Display_Name {
+    margin-left: 250px;
+    text-indent: -400px;
+    word-wrap: normal ;
+    width: 50px
+
+  }
+
+  .Display_Name_First {
+    position: absolute;
+    margin-left: 450px;
+    text-indent: -600px;
+    top: 10px;
+    word-wrap: normal ;
+    width: 50px
+
+  }
+
+.Display_Name_Second {
+    position: relative;
+    margin-left: 550px;
+    text-indent: -400px;
+    word-wrap: normal ;
+    width: 50px
+
+  }
+
+.Display_Name_Third {
+    margin-left: -260px;
+
+  }
+
+
+
+.Display_Decoration {
+ display: inline;
+ padding: 1px;
+ margin-left: -250px;
+}
+
+.Display_Decoration2 {
+  margin-left: 120px;
+}

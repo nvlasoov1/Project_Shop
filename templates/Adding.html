@@ -1,0 +1,31 @@
+{% extends "Base_Adding.html" %}
+
+{% block content %}
+
+{{ form.hidden_tag() }}
+<form action="" method="post">
+    <h1 class="h3 mb-3 fw-normal">Добавить товар</h1>
+     <p>
+        {{ form.name.label }}
+        {{ form.name(class="form-control") }}
+        {% for error in form.name.errors %}
+            <p class="alert alert-danger" role="alert">
+                {{ error }}
+            </p>
+        {% endfor %}
+    </p>
+      <p>
+        {{ form.price.label }}
+        {{ form.price(class="form-control") }}
+        {% for error in form.price.errors %}
+            <p class="alert alert-danger" role="alert">
+                {{ error }}
+            </p>
+        {% endfor %}
+    </p>
+      <p>
+        {{ form.image }}
+    </p>
+      <p>{{ form.submit(type="submit", class="btn btn-primary") }}</p>
+</form>
+{% endblock %}

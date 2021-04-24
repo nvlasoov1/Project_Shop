@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://getbootstrap.com/docs/5.0/examples/sign-in/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>Вход</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/bootstrap.min.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/pricing.css') }}">
+
+    <!-- Favicons -->
+<meta name="theme-color" content="#7952b3">
+
+
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/signin.css') }}">
+    
+    <!-- Custom styles for this template -->
+</head>
+<body>
+
+
+<main class="form-signin text-center">
+  {% block content %}{% endblock %}
+    <p>
+      <div>
+     Нет аккаунта? <a  href="{{ url_for('register') }}">Зарегистрируйтесь</a>
+      </div>
+      <div>
+
+      </div>
+    </p>
+
+</main>
+          <a  href="{{ url_for('start') }}" class = "Back">На главную</a>
+</body></html>

@@ -1,0 +1,88 @@
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+
+body {
+  background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+}
+
+.AhahahahGreen {
+    border-color: #21DA00; /* Цвет границы */
+    border-style: solid; /* Стиль границы */
+    padding: 5px; /* Поля вокруг текста */
+    border-radius: 9px;
+}
+
+.Ahahahah {
+    border-color: #0D73F8; /* Цвет границы */
+    border-style: solid; /* Стиль границы */
+    padding: 5px; /* Поля вокруг текста */
+    border-radius: 9px;
+}
+
+
+
+.fs-10 {
+	font-size: 90px;
+}
+
+.fs-smaller {
+	font-size: 40px;
+}
+
+.fs-medium {
+	font-size: 30px;
+	color:grey;
+}
+
+.Block {
+  float: left;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 300px;
+}
+
+.Border_Ord {
+  margin-left: -200px;
+  position: absolute;
+  border: 1px solid transparent;
+  border-color: black ;
+  border-radius: 3px;
+
+
+}
+
+.Display_Ord {
+  font-size: 40px;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Display_Ord_Empty {
+  display: inline-block;
+}
+
+.Display_Section {
+  display: block;
+  width: 100%;
+  padding: 30px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Display_Delete {
+  position: relative;
+  top: -8px; /* Сдвигаем текст вверх */
+}
+
+.Display_Body {
+  background-image: linear-gradient(360deg, #eee, #fff 2000px, #fff);
+}
